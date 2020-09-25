@@ -1,19 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom"
 import "./App.css";
-import Image from "../public/components/Image"
+import Header from "./components/Header"
+import Data from "./components/Data"
+
 
 function App() {
   return (
     <div className="App">
-      <p>
-       
-      </p>
+     <Header />
+     <Data />
     </div>
   );
 }
 
+const rootElement = document.getElementById("root")
+ReactDOM.render(<App />, rootElement)
 
-        ReactDOM.render(<App />, document.getElementById("root"))
-        
 export default App;

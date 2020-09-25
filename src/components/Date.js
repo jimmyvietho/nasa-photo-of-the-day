@@ -1,8 +1,9 @@
 import React from "react";
 
-const Date = () => {
+const Date = ({date}) => {
+
     return (
-        null
+        <p>{date}</p>
     )
 }
 

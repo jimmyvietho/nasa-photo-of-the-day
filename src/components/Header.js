@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
     return (
-        null
+        <h1>Nasa Photo Of The Day</h1>
     )
 }
 
