@@ -1,15 +1,19 @@
 import React from "react";
+import ReactDOM from "react-dom"
 import "./App.css";
+import Image from "../public/components/Image"
 
 function App() {
   return (
     <div className="App">
       <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
+       
       </p>
     </div>
   );
 }
 
+
+        ReactDOM.render(<App />, document.getElementById("root"))
+        
 export default App;
