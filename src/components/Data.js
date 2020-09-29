@@ -6,7 +6,7 @@ import axios from "axios"
 
 
 const Data = () => {
-    const [picInfo, setPicInfo] = useState("2020-09-01")
+    const [picInfo, setPicInfo] = useState("2020-09-28")
     useEffect(() => {
         axios.get(`https://api.nasa.gov/planetary/apod?api_key=2Qk2u4DxQo5N5LWbY5N5dEsU8bLAE8COuKa4fGxR&date=${picInfo}`)
         .then( (response) => { 
